@@ -1,0 +1,19 @@
+/* Estilo de las páginas legales de Surco (colores de la app) */
+:root { color-scheme: dark; }
+body {
+  margin: 0;
+  background: #0E0C12;
+  color: #E9E4F2;
+  font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+main { max-width: 720px; margin: 0 auto; padding: 32px 20px 64px; }
+.marca { margin: 0 0 24px; font-weight: 800; font-size: 28px; letter-spacing: -1px; color: #FBFAFD; }
+.marca::after { content: ""; display: inline-block; width: 10px; height: 10px; margin-left: 3px; border-radius: 50%; background: #FFD84D; }
+.marca a { color: inherit; text-decoration: none; }
+h1 { color: #FBFAFD; font-size: 30px; line-height: 1.15; letter-spacing: -0.5px; margin: 0 0 8px; }
+h2 { color: #B79CFF; font-size: 19px; margin: 32px 0 8px; }
+a { color: #FFD84D; }
+.fecha { color: #A7A0B4; font-size: 14px; }
+li { margin: 4px 0; }
+.enlaces { list-style: none; padding: 0; }
+.enlaces li { margin: 12px 0; font-size: 18px; }
